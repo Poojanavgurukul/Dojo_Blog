@@ -60,7 +60,6 @@ const UpdateBlog = () => {
             <select
               value={author}
               onChange={(e) => {
-                console.log(e.target.value);
                 setAuthor(e.target.value);
               }}
             >
